@@ -10,7 +10,7 @@ function generateRndArr() {
         let tempVar, rndInt, arrLength;
         arrLength = arr.length;
 
-        while (arrLength !== 0) {
+        while (arrLength--) {
             rndInt = Math.floor(Math.random() * arrLength);
             arrLength -= 1;
 
