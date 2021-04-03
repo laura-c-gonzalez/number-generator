@@ -12,7 +12,6 @@ function generateRndArr() {
 
         while (arrLength--) {
             rndInt = Math.floor(Math.random() * arrLength);
-            arrLength -= 1;
 
             tempVar = arr[rndInt];
             arr[rndInt] = arr[arrLength];
