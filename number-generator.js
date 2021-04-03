@@ -27,7 +27,7 @@ function generateRndArr() {
 
 
 function diplayArr(res) {
-    ;
+    
     let tr;
     document.getElementById('data').innerHTML = '';
 
